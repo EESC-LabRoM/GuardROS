@@ -1,0 +1,11 @@
+key,value
+session_start_unix,1778635753.222442
+session_start_local,2026-05-12T22:29:13
+experiment_label,manual_run
+base_log_dir,/home/denis/DENIS/RollerBot23/guardros_ws/experiments/logs
+session_dir,/home/denis/DENIS/RollerBot23/guardros_ws/experiments/logs/2026-05-12_22-29-13_manual_run
+current_working_directory,/home/denis/DENIS/RollerBot23/guardros_ws
+hostname,denis-Aspire-A515-54G
+user,denis
+platform,Linux-6.8.0-111-generic-x86_64-with-glibc2.35
+python_version,3.10.12

@@ -1,0 +1,32 @@
+running develop
+Removing /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23-video-viewer.egg-link (link to .)
+running egg_info
+writing ../../build/rb23_video_viewer/rb23_video_viewer.egg-info/PKG-INFO
+writing dependency_links to ../../build/rb23_video_viewer/rb23_video_viewer.egg-info/dependency_links.txt
+writing entry points to ../../build/rb23_video_viewer/rb23_video_viewer.egg-info/entry_points.txt
+writing requirements to ../../build/rb23_video_viewer/rb23_video_viewer.egg-info/requires.txt
+writing top-level names to ../../build/rb23_video_viewer/rb23_video_viewer.egg-info/top_level.txt
+reading manifest file '../../build/rb23_video_viewer/rb23_video_viewer.egg-info/SOURCES.txt'
+writing manifest file '../../build/rb23_video_viewer/rb23_video_viewer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib/rb23_video_viewer
+copying rb23_video_viewer/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib/rb23_video_viewer
+copying rb23_video_viewer/rb23_video_viewer_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib/rb23_video_viewer
+running install
+running install_lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib/rb23_video_viewer/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build/lib/rb23_video_viewer/rb23_video_viewer_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer/rb23_video_viewer_node.py to rb23_video_viewer_node.cpython-310.pyc
+running install_data
+copying resource/rb23_video_viewer -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index/resource_index/packages
+copying package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer
+running install_egg_info
+Copying ../../build/rb23_video_viewer/rb23_video_viewer.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23_video_viewer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rb23_video_viewer_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/rb23_video_viewer
+writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/install.log'

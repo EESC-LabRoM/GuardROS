@@ -1,0 +1,9 @@
+metric,value
+udp_rx_rate_hz,44.80653877252376
+telemetry_rx_rate_hz_driver,19.180725215344033
+video_rx_rate_hz_driver,19.801108050387043
+audio_rx_rate_hz_driver,5.82248191240185
+udp_unknown_ratio,0.0
+udp_timeout_rate_hz,0.144533635404285
+udp_recv_error_rate_hz,0.0
+udp_command_send_error_rate_hz,0.0

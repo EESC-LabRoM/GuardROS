@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info
+writing ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/PKG-INFO
+writing dependency_links to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/dependency_links.txt
+writing entry points to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/entry_points.txt
+writing requirements to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/requires.txt
+writing top-level names to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/top_level.txt
+writing manifest file '../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/SOURCES.txt'
+reading manifest file '../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/SOURCES.txt'
+writing manifest file '../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib/rb23_experiment_logger
+copying rb23_experiment_logger/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib/rb23_experiment_logger
+copying rb23_experiment_logger/rb23_experiment_logger_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib/rb23_experiment_logger
+running install
+running install_lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib/rb23_experiment_logger/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build/lib/rb23_experiment_logger/rb23_experiment_logger_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger/rb23_experiment_logger_node.py to rb23_experiment_logger_node.cpython-310.pyc
+running install_data
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/ament_index
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/ament_index/resource_index
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/ament_index/resource_index/packages
+copying resource/rb23_experiment_logger -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/ament_index/resource_index/packages
+copying package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger
+running install_egg_info
+Copying ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger-0.0.1-py3.10.egg-info
+running install_scripts
+Installing rb23_experiment_logger_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/rb23_experiment_logger
+writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log'

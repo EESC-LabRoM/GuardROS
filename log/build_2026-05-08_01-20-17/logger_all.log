@@ -1,0 +1,462 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e3d723afeb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3d723af9a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3d723af9a0>>)
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.318s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/denis/DENIS/RollerBot23/guardros_ws'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/guardros_msgs) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/guardros_msgs' with type 'ros.ament_cmake' and name 'guardros_msgs'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_audio) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_audio' with type 'ros.ament_python' and name 'rb23_audio'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_experiment_logger) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_experiment_logger' with type 'ros.ament_python' and name 'rb23_experiment_logger'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_keyboard_teleop) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_keyboard_teleop' with type 'ros.ament_python' and name 'rb23_keyboard_teleop'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_ros_driver) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_ros_driver' with type 'ros.ament_python' and name 'rb23_ros_driver'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_telemetry_viewer) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_telemetry_viewer' with type 'ros.ament_python' and name 'rb23_telemetry_viewer'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb23_video_viewer) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb23_video_viewer' with type 'ros.ament_python' and name 'rb23_video_viewer'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.376s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 322 installed packages in /opt/ros/humble
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'guardros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'guardros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/guardros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_keyboard_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_keyboard_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_keyboard_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'rb23_video_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_video_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_video_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_audio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_audio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_experiment_logger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_experiment_logger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'rb23_telemetry_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'rb23_telemetry_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer', 'merge_install': False, 'path': '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/guardros_msgs' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/guardros_msgs'
+[0.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_keyboard_teleop' with build type 'ament_python'
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_keyboard_teleop', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver' with build type 'ament_python'
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_ros_driver', 'ament_prefix_path')
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/ament_prefix_path.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/ament_prefix_path.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/ament_prefix_path.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_video_viewer' with build type 'ament_python'
+[0.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_video_viewer', 'ament_prefix_path')
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/ament_prefix_path.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/ament_prefix_path.sh'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs -- -j8 -l8
+[0.766s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_keyboard_teleop'
+[0.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.051s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.319s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_video_viewer'
+[1.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs -- -j8 -l8
+[1.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs
+[1.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(guardros_msgs)
+[1.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs' for CMake module files
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('guardros_msgs', 'cmake_prefix_path')
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib'
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('guardros_msgs', 'ld_library_path_lib')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.sh'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/bin'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/pkgconfig/guardros_msgs.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.bash'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.zsh'
+[1.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/colcon-core/packages/guardros_msgs)
+[1.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(guardros_msgs)
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs' for CMake module files
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs' for CMake config files
+[1.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('guardros_msgs', 'cmake_prefix_path')
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.dsv'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/cmake_prefix_path.sh'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib'
+[1.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('guardros_msgs', 'ld_library_path_lib')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/hook/ld_library_path_lib.sh'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/bin'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/pkgconfig/guardros_msgs.pc'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/python3.10/site-packages'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/bin'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.sh'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.bash'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.zsh'
+[1.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/colcon-core/packages/guardros_msgs)
+[1.490s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio' with build type 'ament_python'
+[1.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_audio', 'ament_prefix_path')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/ament_prefix_path.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/ament_prefix_path.dsv'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/ament_prefix_path.sh'
+[1.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.497s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger' with build type 'ament_python'
+[1.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_experiment_logger', 'ament_prefix_path')
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/ament_prefix_path.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/ament_prefix_path.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/ament_prefix_path.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.506s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer' with build type 'ament_python'
+[1.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_telemetry_viewer', 'ament_prefix_path')
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/ament_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/ament_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/ament_prefix_path.sh'
+[1.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.808s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio'
+[1.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger'
+[2.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer'
+[2.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_keyboard_teleop': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_keyboard_teleop build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/install.log --single-version-externally-managed install_data
+[2.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_ros_driver build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/install.log --single-version-externally-managed install_data
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_video_viewer': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_video_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/install.log --single-version-externally-managed install_data
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver' for CMake module files
+[2.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_ros_driver build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/install.log --single-version-externally-managed install_data
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver' for CMake config files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/bin'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/pkgconfig/rb23_ros_driver.pc'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages'
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_ros_driver', 'pythonpath')
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/pythonpath.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/pythonpath.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/hook/pythonpath.sh'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/bin'
+[2.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_ros_driver)
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/package.ps1'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/package.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/package.sh'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/package.bash'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver/package.zsh'
+[2.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/colcon-core/packages/rb23_ros_driver)
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop' for CMake module files
+[2.839s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop' for CMake config files
+[2.840s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib'
+[2.840s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/bin'
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/pkgconfig/rb23_keyboard_teleop.pc'
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages'
+[2.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_keyboard_teleop', 'pythonpath')
+[2.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/pythonpath.ps1'
+[2.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_keyboard_teleop' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_keyboard_teleop build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/install.log --single-version-externally-managed install_data
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/pythonpath.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/hook/pythonpath.sh'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/bin'
+[2.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_keyboard_teleop)
+[2.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/package.ps1'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/package.dsv'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/package.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/package.bash'
+[2.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/rb23_keyboard_teleop/package.zsh'
+[2.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/share/colcon-core/packages/rb23_keyboard_teleop)
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer' for CMake module files
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_video_viewer' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_video_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/install.log --single-version-externally-managed install_data
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer' for CMake config files
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/bin'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/pkgconfig/rb23_video_viewer.pc'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages'
+[2.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_video_viewer', 'pythonpath')
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/pythonpath.ps1'
+[2.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/pythonpath.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/hook/pythonpath.sh'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/bin'
+[2.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_video_viewer)
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/package.sh'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/package.bash'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer/package.zsh'
+[2.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/colcon-core/packages/rb23_video_viewer)
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_audio build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log --single-version-externally-managed install_data
+[2.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_experiment_logger build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log --single-version-externally-managed install_data
+[2.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_telemetry_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/install.log --single-version-externally-managed install_data
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio' for CMake module files
+[3.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_audio build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log --single-version-externally-managed install_data
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio' for CMake config files
+[3.262s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib'
+[3.262s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/bin'
+[3.262s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/pkgconfig/rb23_audio.pc'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages'
+[3.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_audio', 'pythonpath')
+[3.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/pythonpath.ps1'
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/pythonpath.dsv'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/hook/pythonpath.sh'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/bin'
+[3.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_audio)
+[3.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/package.ps1'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/package.dsv'
+[3.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/package.sh'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/package.bash'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio/package.zsh'
+[3.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/colcon-core/packages/rb23_audio)
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer' for CMake module files
+[3.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_telemetry_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/install.log --single-version-externally-managed install_data
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer' for CMake config files
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/bin'
+[3.303s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/pkgconfig/rb23_telemetry_viewer.pc'
+[3.303s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages'
+[3.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_telemetry_viewer', 'pythonpath')
+[3.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/pythonpath.ps1'
+[3.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/pythonpath.dsv'
+[3.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/hook/pythonpath.sh'
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/bin'
+[3.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_telemetry_viewer)
+[3.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/package.ps1'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/package.dsv'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/package.sh'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/package.bash'
+[3.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/rb23_telemetry_viewer/package.zsh'
+[3.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/share/colcon-core/packages/rb23_telemetry_viewer)
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger' for CMake module files
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger' for CMake config files
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib'
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/bin'
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/pkgconfig/rb23_experiment_logger.pc'
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages'
+[3.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('rb23_experiment_logger', 'pythonpath')
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/pythonpath.ps1'
+[3.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_experiment_logger build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log --single-version-externally-managed install_data
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/pythonpath.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/hook/pythonpath.sh'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/bin'
+[3.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rb23_experiment_logger)
+[3.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/package.ps1'
+[3.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/package.dsv'
+[3.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/package.sh'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/package.bash'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/rb23_experiment_logger/package.zsh'
+[3.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/share/colcon-core/packages/rb23_experiment_logger)
+[3.346s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.346s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.346s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.346s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.353s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.372s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.373s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/DENIS/RollerBot23/guardros_ws/install/local_setup.ps1'
+[3.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denis/DENIS/RollerBot23/guardros_ws/install/_local_setup_util_ps1.py'
+[3.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/DENIS/RollerBot23/guardros_ws/install/setup.ps1'
+[3.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/DENIS/RollerBot23/guardros_ws/install/local_setup.sh'
+[3.378s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denis/DENIS/RollerBot23/guardros_ws/install/_local_setup_util_sh.py'
+[3.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/DENIS/RollerBot23/guardros_ws/install/setup.sh'
+[3.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/DENIS/RollerBot23/guardros_ws/install/local_setup.bash'
+[3.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/DENIS/RollerBot23/guardros_ws/install/setup.bash'
+[3.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/DENIS/RollerBot23/guardros_ws/install/local_setup.zsh'
+[3.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/DENIS/RollerBot23/guardros_ws/install/setup.zsh'

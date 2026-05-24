@@ -1,0 +1,35 @@
+running develop
+Removing /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23-audio.egg-link (link to .)
+running egg_info
+writing ../../build/rb23_audio/rb23_audio.egg-info/PKG-INFO
+writing dependency_links to ../../build/rb23_audio/rb23_audio.egg-info/dependency_links.txt
+writing entry points to ../../build/rb23_audio/rb23_audio.egg-info/entry_points.txt
+writing requirements to ../../build/rb23_audio/rb23_audio.egg-info/requires.txt
+writing top-level names to ../../build/rb23_audio/rb23_audio.egg-info/top_level.txt
+reading manifest file '../../build/rb23_audio/rb23_audio.egg-info/SOURCES.txt'
+writing manifest file '../../build/rb23_audio/rb23_audio.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+copying rb23_audio/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+copying rb23_audio/rb23_audio_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+copying rb23_audio/rb23_audio_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+running install
+running install_lib
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/rb23_audio_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/rb23_audio_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/rb23_audio_node_bkp.py to rb23_audio_node_bkp.cpython-310.pyc
+byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/rb23_audio_node.py to rb23_audio_node.cpython-310.pyc
+running install_data
+copying resource/rb23_audio -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/ament_index/resource_index/packages
+copying package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio
+running install_egg_info
+Copying ../../build/rb23_audio/rb23_audio.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rb23_audio_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/rb23_audio
+writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log'

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rb23_video_viewer.egg-info
+writing rb23_video_viewer.egg-info/PKG-INFO
+writing dependency_links to rb23_video_viewer.egg-info/dependency_links.txt
+writing entry points to rb23_video_viewer.egg-info/entry_points.txt
+writing requirements to rb23_video_viewer.egg-info/requires.txt
+writing top-level names to rb23_video_viewer.egg-info/top_level.txt
+writing manifest file 'rb23_video_viewer.egg-info/SOURCES.txt'
+reading manifest file 'rb23_video_viewer.egg-info/SOURCES.txt'
+writing manifest file 'rb23_video_viewer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23-video-viewer.egg-link (link to .)
+Installing rb23_video_viewer_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/rb23_video_viewer
+
+Installed /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer
+running symlink_data
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index/resource_index
+creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index/resource_index/packages
+symbolically linking /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/resource/rb23_video_viewer -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index/resource_index/packages
+symbolically linking /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer

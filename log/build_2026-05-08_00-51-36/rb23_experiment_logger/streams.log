@@ -1,0 +1,21 @@
+[1.379s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_experiment_logger build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log --single-version-externally-managed install_data
+[1.671s] running egg_info
+[1.672s] writing ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/PKG-INFO
+[1.672s] writing dependency_links to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/dependency_links.txt
+[1.672s] writing entry points to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/entry_points.txt
+[1.672s] writing requirements to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/requires.txt
+[1.672s] writing top-level names to ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/top_level.txt
+[1.675s] reading manifest file '../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/SOURCES.txt'
+[1.677s] writing manifest file '../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info/SOURCES.txt'
+[1.677s] running build
+[1.677s] running build_py
+[1.677s] running install
+[1.678s] running install_lib
+[1.679s] running install_data
+[1.680s] running install_egg_info
+[1.682s] removing '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger-0.0.1-py3.10.egg-info' (and everything under it)
+[1.682s] Copying ../../build/rb23_experiment_logger/rb23_experiment_logger.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages/rb23_experiment_logger-0.0.1-py3.10.egg-info
+[1.683s] running install_scripts
+[1.710s] Installing rb23_experiment_logger_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/rb23_experiment_logger
+[1.710s] writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log'
+[1.740s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_experiment_logger' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_experiment_logger/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_experiment_logger build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_experiment_logger/install.log --single-version-externally-managed install_data

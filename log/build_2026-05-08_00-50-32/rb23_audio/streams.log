@@ -1,0 +1,39 @@
+[1.432s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build
+[1.728s] running develop
+[1.936s] Removing /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23-audio.egg-link (link to .)
+[1.965s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build
+[1.967s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_audio build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log --single-version-externally-managed install_data --force
+[2.228s] running egg_info
+[2.228s] writing ../../build/rb23_audio/rb23_audio.egg-info/PKG-INFO
+[2.229s] writing dependency_links to ../../build/rb23_audio/rb23_audio.egg-info/dependency_links.txt
+[2.229s] writing entry points to ../../build/rb23_audio/rb23_audio.egg-info/entry_points.txt
+[2.229s] writing requirements to ../../build/rb23_audio/rb23_audio.egg-info/requires.txt
+[2.229s] writing top-level names to ../../build/rb23_audio/rb23_audio.egg-info/top_level.txt
+[2.231s] reading manifest file '../../build/rb23_audio/rb23_audio.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/rb23_audio/rb23_audio.egg-info/SOURCES.txt'
+[2.262s] running build
+[2.262s] running build_py
+[2.262s] creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build
+[2.262s] creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib
+[2.262s] creating /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+[2.262s] copying rb23_audio/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+[2.262s] copying rb23_audio/rb23_audio_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+[2.262s] copying rb23_audio/rb23_audio_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio
+[2.263s] running install
+[2.263s] running install_lib
+[2.264s] creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+[2.264s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+[2.264s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/rb23_audio_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+[2.265s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build/lib/rb23_audio/rb23_audio_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio
+[2.265s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/__init__.py to __init__.cpython-310.pyc
+[2.266s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/rb23_audio_node_bkp.py to rb23_audio_node_bkp.cpython-310.pyc
+[2.269s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio/rb23_audio_node.py to rb23_audio_node.cpython-310.pyc
+[2.272s] running install_data
+[2.272s] copying resource/rb23_audio -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/ament_index/resource_index/packages
+[2.272s] copying package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/share/rb23_audio
+[2.273s] running install_egg_info
+[2.275s] Copying ../../build/rb23_audio/rb23_audio.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages/rb23_audio-0.0.0-py3.10.egg-info
+[2.276s] running install_scripts
+[2.301s] Installing rb23_audio_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/rb23_audio
+[2.302s] writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log'
+[2.334s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_audio' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_audio/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_audio build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_audio/install.log --single-version-externally-managed install_data --force

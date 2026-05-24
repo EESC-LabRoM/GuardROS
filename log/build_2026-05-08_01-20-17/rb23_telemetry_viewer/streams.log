@@ -1,0 +1,21 @@
+[1.448s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_telemetry_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/install.log --single-version-externally-managed install_data
+[1.720s] running egg_info
+[1.721s] writing ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/PKG-INFO
+[1.721s] writing dependency_links to ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/dependency_links.txt
+[1.721s] writing entry points to ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/entry_points.txt
+[1.722s] writing requirements to ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/requires.txt
+[1.722s] writing top-level names to ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/top_level.txt
+[1.724s] reading manifest file '../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/SOURCES.txt'
+[1.725s] writing manifest file '../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info/SOURCES.txt'
+[1.725s] running build
+[1.725s] running build_py
+[1.725s] running install
+[1.725s] running install_lib
+[1.727s] running install_data
+[1.727s] running install_egg_info
+[1.729s] removing '/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages/rb23_telemetry_viewer-0.0.1-py3.10.egg-info' (and everything under it)
+[1.729s] Copying ../../build/rb23_telemetry_viewer/rb23_telemetry_viewer.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages/rb23_telemetry_viewer-0.0.1-py3.10.egg-info
+[1.730s] running install_scripts
+[1.762s] Installing rb23_telemetry_viewer_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/rb23_telemetry_viewer
+[1.762s] writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/install.log'
+[1.794s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_telemetry_viewer' returned '0': AMENT_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs LD_LIBRARY_PATH=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_telemetry_viewer/lib/python3.10/site-packages:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_telemetry_viewer build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_telemetry_viewer/install.log --single-version-externally-managed install_data

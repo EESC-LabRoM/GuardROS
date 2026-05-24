@@ -1,0 +1,17 @@
+[1.550s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/build --no-deps symlink_data
+[2.022s] running develop
+[2.262s] running egg_info
+[2.262s] writing rb23_keyboard_teleop.egg-info/PKG-INFO
+[2.263s] writing dependency_links to rb23_keyboard_teleop.egg-info/dependency_links.txt
+[2.263s] writing entry points to rb23_keyboard_teleop.egg-info/entry_points.txt
+[2.263s] writing requirements to rb23_keyboard_teleop.egg-info/requires.txt
+[2.263s] writing top-level names to rb23_keyboard_teleop.egg-info/top_level.txt
+[2.267s] reading manifest file 'rb23_keyboard_teleop.egg-info/SOURCES.txt'
+[2.268s] writing manifest file 'rb23_keyboard_teleop.egg-info/SOURCES.txt'
+[2.269s] running build_ext
+[2.269s] Creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages/rb23-keyboard-teleop.egg-link (link to .)
+[2.271s] Installing keyboard_teleop_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/rb23_keyboard_teleop
+[2.271s] 
+[2.271s] Installed /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop
+[2.271s] running symlink_data
+[2.313s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_keyboard_teleop/build --no-deps symlink_data

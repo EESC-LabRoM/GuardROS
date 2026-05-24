@@ -1,0 +1,36 @@
+[1.354s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build
+[1.821s] running develop
+[2.052s] Removing /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23-ros-driver.egg-link (link to .)
+[2.120s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build
+[2.125s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_ros_driver build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/install.log --single-version-externally-managed install_data --force
+[2.404s] running egg_info
+[2.406s] writing ../../build/rb23_ros_driver/rb23_ros_driver.egg-info/PKG-INFO
+[2.406s] writing dependency_links to ../../build/rb23_ros_driver/rb23_ros_driver.egg-info/dependency_links.txt
+[2.406s] writing entry points to ../../build/rb23_ros_driver/rb23_ros_driver.egg-info/entry_points.txt
+[2.406s] writing requirements to ../../build/rb23_ros_driver/rb23_ros_driver.egg-info/requires.txt
+[2.406s] writing top-level names to ../../build/rb23_ros_driver/rb23_ros_driver.egg-info/top_level.txt
+[2.408s] reading manifest file '../../build/rb23_ros_driver/rb23_ros_driver.egg-info/SOURCES.txt'
+[2.419s] adding license file 'LICENSE'
+[2.420s] writing manifest file '../../build/rb23_ros_driver/rb23_ros_driver.egg-info/SOURCES.txt'
+[2.420s] running build
+[2.421s] running build_py
+[2.421s] copying rb23_ros_driver/rb23_driver_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build/lib/rb23_ros_driver
+[2.421s] copying rb23_ros_driver/rb23_driver_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build/lib/rb23_ros_driver
+[2.421s] running install
+[2.421s] running install_lib
+[2.422s] creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver
+[2.422s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build/lib/rb23_ros_driver/rb23_driver_node.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver
+[2.422s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build/lib/rb23_ros_driver/__init__.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver
+[2.423s] copying /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build/lib/rb23_ros_driver/rb23_driver_node_bkp.py -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver
+[2.423s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver/rb23_driver_node.py to rb23_driver_node.cpython-310.pyc
+[2.429s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver/__init__.py to __init__.cpython-310.pyc
+[2.429s] byte-compiling /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver/rb23_driver_node_bkp.py to rb23_driver_node_bkp.cpython-310.pyc
+[2.433s] running install_data
+[2.433s] copying resource/rb23_ros_driver -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/ament_index/resource_index/packages
+[2.433s] copying package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/share/rb23_ros_driver
+[2.433s] running install_egg_info
+[2.436s] Copying ../../build/rb23_ros_driver/rb23_ros_driver.egg-info to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23_ros_driver-0.0.0-py3.10.egg-info
+[2.437s] running install_scripts
+[2.458s] Installing rb23_driver_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/rb23_ros_driver
+[2.458s] writing list of installed files to '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/install.log'
+[2.730s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/src/rb23_ros_driver' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rb23_ros_driver build --build-base /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build install --record /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/install.log --single-version-externally-managed install_data --force

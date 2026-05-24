@@ -1,0 +1,332 @@
+[0.027s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake /home/denis/DENIS/RollerBot23/guardros_ws/src/guardros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs
+[0.604s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.605s] -- Detecting C compiler ABI info
+[0.605s] -- Detecting C compiler ABI info - done
+[0.605s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.605s] -- Detecting C compile features
+[0.605s] -- Detecting C compile features - done
+[0.605s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.605s] -- Detecting CXX compile features
+[0.605s] -- Detecting CXX compile features - done
+[0.605s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.606s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.606s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.636s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.537s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.564s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.564s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.564s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.564s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.586s] -- Found PythonExtra: .so  
+[1.629s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.651s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.654s] -- Added test 'lint_cmake' to check CMake code style
+[1.655s] -- Added test 'xmllint' to check XML markup files
+[1.659s] -- Configuring done
+[1.695s] -- Generating done
+[1.706s] -- Build files have been written to: /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs
+[1.719s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake /home/denis/DENIS/RollerBot23/guardros_ws/src/guardros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs
+[1.719s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake --build /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs -- -j8 -l8
+[1.762s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.777s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.785s] [  2%] Built target ament_cmake_python_symlink_guardros_msgs
+[2.155s] running egg_info
+[2.156s] creating guardros_msgs.egg-info
+[2.156s] writing guardros_msgs.egg-info/PKG-INFO
+[2.156s] writing dependency_links to guardros_msgs.egg-info/dependency_links.txt
+[2.156s] writing top-level names to guardros_msgs.egg-info/top_level.txt
+[2.157s] writing manifest file 'guardros_msgs.egg-info/SOURCES.txt'
+[2.159s] reading manifest file 'guardros_msgs.egg-info/SOURCES.txt'
+[2.159s] writing manifest file 'guardros_msgs.egg-info/SOURCES.txt'
+[2.188s] [  2%] Built target ament_cmake_python_build_guardros_msgs_egg
+[2.534s] [  2%] Built target guardros_msgs__cpp
+[2.557s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.562s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.563s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.585s] [  9%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/temperatures__functions.c.o[0m
+[2.585s] [  9%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/battery__functions.c.o[0m
+[2.585s] [ 11%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/magnetometer__functions.c.o[0m
+[2.585s] [ 12%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/drive_status__functions.c.o[0m
+[2.599s] [ 14%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/connection_status__functions.c.o[0m
+[2.652s] [ 15%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_c.dir/rosidl_generator_c/guardros_msgs/msg/detail/command_state__functions.c.o[0m
+[2.721s] [ 16%] [32m[1mLinking C shared library libguardros_msgs__rosidl_generator_c.so[0m
+[2.774s] [ 16%] Built target guardros_msgs__rosidl_generator_c
+[2.789s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.789s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.791s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.161s] [ 22%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/drive_status__type_support.cpp.o[0m
+[3.167s] [ 25%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/battery__type_support.cpp.o[0m
+[3.172s] [ 25%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/temperatures__type_support.cpp.o[0m
+[3.457s] [ 26%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/battery__type_support.cpp.o[0m
+[3.522s] [ 28%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/battery__type_support.cpp.o[0m
+[3.568s] [ 29%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/battery__type_support.cpp.o[0m
+[3.594s] [ 30%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/temperatures__type_support.cpp.o[0m
+[3.648s] [ 32%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/battery__type_support.c.o[0m
+[3.667s] [ 33%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/drive_status__type_support.cpp.o[0m
+[3.717s] [ 35%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/temperatures__type_support.cpp.o[0m
+[3.722s] [ 36%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/temperatures__type_support.c.o[0m
+[3.729s] [ 38%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/magnetometer__type_support.cpp.o[0m
+[3.729s] [ 39%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/temperatures__type_support.cpp.o[0m
+[3.761s] [ 40%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/battery__type_support_c.cpp.o[0m
+[3.777s] [ 42%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/magnetometer__type_support.cpp.o[0m
+[3.783s] [ 43%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/connection_status__type_support.cpp.o[0m
+[3.790s] [ 45%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/drive_status__type_support.c.o[0m
+[3.825s] [ 46%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/guardros_msgs/msg/command_state__type_support.cpp.o[0m
+[3.840s] [ 47%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/magnetometer__type_support.c.o[0m
+[3.865s] [ 49%] [32m[1mLinking CXX shared library libguardros_msgs__rosidl_typesupport_c.so[0m
+[3.891s] [ 50%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/connection_status__type_support.c.o[0m
+[3.927s] [ 50%] Built target guardros_msgs__rosidl_typesupport_c
+[3.936s] [ 52%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/guardros_msgs/msg/detail/command_state__type_support.c.o[0m
+[3.939s] [ 53%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/drive_status__type_support.cpp.o[0m
+[3.982s] [ 54%] [32m[1mLinking C shared library libguardros_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.029s] [ 54%] Built target guardros_msgs__rosidl_typesupport_introspection_c
+[4.051s] [ 56%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/magnetometer__type_support.cpp.o[0m
+[4.199s] [ 57%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/connection_status__type_support.cpp.o[0m
+[4.200s] [ 59%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/drive_status__type_support.cpp.o[0m
+[4.221s] [ 60%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/connection_status__type_support.cpp.o[0m
+[4.372s] [ 61%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/guardros_msgs/msg/command_state__type_support.cpp.o[0m
+[4.393s] [ 63%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/temperatures__type_support_c.cpp.o[0m
+[4.419s] [ 64%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/magnetometer__type_support.cpp.o[0m
+[4.617s] [ 66%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/connection_status__type_support.cpp.o[0m
+[4.683s] [ 67%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/guardros_msgs/msg/detail/dds_fastrtps/command_state__type_support.cpp.o[0m
+[4.693s] [ 69%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/drive_status__type_support_c.cpp.o[0m
+[4.809s] [ 70%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/magnetometer__type_support_c.cpp.o[0m
+[4.865s] [ 71%] [32m[1mLinking CXX shared library libguardros_msgs__rosidl_typesupport_cpp.so[0m
+[4.883s] [ 73%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/connection_status__type_support_c.cpp.o[0m
+[4.907s] [ 74%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/guardros_msgs/msg/detail/command_state__type_support.cpp.o[0m
+[4.926s] [ 74%] Built target guardros_msgs__rosidl_typesupport_cpp
+[4.938s] [ 76%] [32mBuilding CXX object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/guardros_msgs/msg/detail/command_state__type_support_c.cpp.o[0m
+[5.350s] [ 77%] [32m[1mLinking CXX shared library libguardros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.433s] [ 78%] [32m[1mLinking CXX shared library libguardros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.455s] [ 78%] Built target guardros_msgs__rosidl_typesupport_fastrtps_cpp
+[5.476s] [ 80%] [32m[1mLinking CXX shared library libguardros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.512s] [ 80%] Built target guardros_msgs__rosidl_typesupport_fastrtps_c
+[5.517s] [ 80%] Built target guardros_msgs__rosidl_typesupport_introspection_cpp
+[5.534s] [ 80%] Built target guardros_msgs
+[5.554s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.300s] [ 81%] Built target guardros_msgs__py
+[6.319s] [ 83%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_temperatures_s.c.o[0m
+[6.319s] [ 84%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_command_state_s.c.o[0m
+[6.319s] [ 85%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_battery_s.c.o[0m
+[6.320s] [ 87%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_drive_status_s.c.o[0m
+[6.320s] [ 88%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_magnetometer_s.c.o[0m
+[6.320s] [ 90%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_generator_py.dir/rosidl_generator_py/guardros_msgs/msg/_connection_status_s.c.o[0m
+[6.477s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/guardros_msgs/libguardros_msgs__rosidl_generator_py.so[0m
+[6.511s] [ 91%] Built target guardros_msgs__rosidl_generator_py
+[6.528s] [ 94%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.528s] [ 94%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.528s] [ 95%] [32mBuilding C object CMakeFiles/guardros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.651s] [100%] [32m[1mLinking C shared library rosidl_generator_py/guardros_msgs/guardros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.651s] [100%] [32m[1mLinking C shared library rosidl_generator_py/guardros_msgs/guardros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.651s] [100%] [32m[1mLinking C shared library rosidl_generator_py/guardros_msgs/guardros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.681s] [100%] Built target guardros_msgs__rosidl_typesupport_introspection_c__pyext
+[6.681s] [100%] Built target guardros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.681s] [100%] Built target guardros_msgs__rosidl_typesupport_c__pyext
+[6.692s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake --build /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs -- -j8 -l8
+[6.700s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake --install /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs
+[6.706s] -- Install configuration: ""
+[6.707s] -- Execute custom install script
+[6.707s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/ament_index/resource_index/rosidl_interfaces/guardros_msgs
+[6.715s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/battery.h
+[6.722s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/command_state.h
+[6.729s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/connection_status.h
+[6.736s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__functions.h
+[6.746s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__struct.h
+[6.753s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__type_support.h
+[6.760s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__functions.h
+[6.767s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__struct.h
+[6.775s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__type_support.h
+[6.782s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__functions.h
+[6.789s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__struct.h
+[6.796s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__type_support.h
+[6.803s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__functions.h
+[6.810s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__struct.h
+[6.817s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__type_support.h
+[6.824s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__functions.h
+[6.830s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__struct.h
+[6.838s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__type_support.h
+[6.848s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__functions.h
+[6.855s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__struct.h
+[6.862s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__type_support.h
+[6.869s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/drive_status.h
+[6.877s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/magnetometer.h
+[6.884s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.891s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/temperatures.h
+[6.898s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/library_path.sh
+[6.905s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/library_path.dsv
+[6.913s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__rosidl_typesupport_fastrtps_c.h
+[6.920s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__rosidl_typesupport_fastrtps_c.h
+[6.927s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__rosidl_typesupport_fastrtps_c.h
+[6.934s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__rosidl_typesupport_fastrtps_c.h
+[6.944s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__rosidl_typesupport_fastrtps_c.h
+[6.951s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__rosidl_typesupport_fastrtps_c.h
+[6.959s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.966s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__rosidl_typesupport_introspection_c.h
+[6.973s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__rosidl_typesupport_introspection_c.h
+[6.980s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__rosidl_typesupport_introspection_c.h
+[6.987s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__rosidl_typesupport_introspection_c.h
+[6.994s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__rosidl_typesupport_introspection_c.h
+[7.001s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__rosidl_typesupport_introspection_c.h
+[7.008s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.016s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/battery.hpp
+[7.022s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/command_state.hpp
+[7.029s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/connection_status.hpp
+[7.036s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__builder.hpp
+[7.045s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__struct.hpp
+[7.053s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__traits.hpp
+[7.060s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__type_support.hpp
+[7.067s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__builder.hpp
+[7.074s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__struct.hpp
+[7.081s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__traits.hpp
+[7.088s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__type_support.hpp
+[7.095s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__builder.hpp
+[7.102s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__struct.hpp
+[7.109s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__traits.hpp
+[7.116s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__type_support.hpp
+[7.123s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__builder.hpp
+[7.130s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__struct.hpp
+[7.137s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__traits.hpp
+[7.147s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__type_support.hpp
+[7.154s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__builder.hpp
+[7.162s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__struct.hpp
+[7.169s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__traits.hpp
+[7.176s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__type_support.hpp
+[7.183s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__builder.hpp
+[7.190s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__struct.hpp
+[7.197s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__traits.hpp
+[7.204s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__type_support.hpp
+[7.211s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/drive_status.hpp
+[7.218s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/magnetometer.hpp
+[7.225s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.232s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/temperatures.hpp
+[7.241s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__rosidl_typesupport_fastrtps_cpp.hpp
+[7.250s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.257s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.265s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.272s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__rosidl_typesupport_fastrtps_cpp.hpp
+[7.279s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__rosidl_typesupport_fastrtps_cpp.hpp
+[7.286s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.293s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/battery__rosidl_typesupport_introspection_cpp.hpp
+[7.300s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/command_state__rosidl_typesupport_introspection_cpp.hpp
+[7.307s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/connection_status__rosidl_typesupport_introspection_cpp.hpp
+[7.314s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/drive_status__rosidl_typesupport_introspection_cpp.hpp
+[7.321s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/magnetometer__rosidl_typesupport_introspection_cpp.hpp
+[7.328s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/include/guardros_msgs/guardros_msgs/msg/detail/temperatures__rosidl_typesupport_introspection_cpp.hpp
+[7.335s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/pythonpath.sh
+[7.344s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/pythonpath.dsv
+[7.353s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[7.360s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.368s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.375s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[7.383s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/__init__.py
+[7.390s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_c.c
+[7.397s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.404s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/_guardros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.412s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.419s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.426s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.433s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/libguardros_msgs__rosidl_generator_py.so
+[7.443s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/__init__.py
+[7.450s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_battery.py
+[7.458s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_battery_s.c
+[7.465s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_command_state.py
+[7.472s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_command_state_s.c
+[7.479s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_connection_status.py
+[7.486s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_connection_status_s.c
+[7.493s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_drive_status.py
+[7.501s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_drive_status_s.c
+[7.508s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_magnetometer.py
+[7.515s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_magnetometer_s.c
+[7.522s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_temperatures.py
+[7.529s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_temperatures_s.c
+[7.536s] -- Up-to-date symlink: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.536s] -- Up-to-date symlink: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.537s] -- Up-to-date symlink: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/guardros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.537s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Battery.idl
+[7.546s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Temperatures.idl
+[7.554s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/DriveStatus.idl
+[7.562s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Magnetometer.idl
+[7.569s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/ConnectionStatus.idl
+[7.576s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/CommandState.idl
+[7.583s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Battery.msg
+[7.590s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Temperatures.msg
+[7.598s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/DriveStatus.msg
+[7.605s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/Magnetometer.msg
+[7.612s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/ConnectionStatus.msg
+[7.619s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/msg/CommandState.msg
+[7.626s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/ament_index/resource_index/package_run_dependencies/guardros_msgs
+[7.634s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/ament_index/resource_index/parent_prefix_path/guardros_msgs
+[7.642s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/ament_prefix_path.sh
+[7.652s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/ament_prefix_path.dsv
+[7.660s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/path.sh
+[7.668s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/environment/path.dsv
+[7.676s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/local_setup.bash
+[7.684s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/local_setup.sh
+[7.692s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/local_setup.zsh
+[7.700s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/local_setup.dsv
+[7.707s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.dsv
+[7.715s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/ament_index/resource_index/packages/guardros_msgs
+[7.723s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/rosidl_cmake-extras.cmake
+[7.730s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.738s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.746s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.755s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.765s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.773s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.781s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgsConfig.cmake
+[7.790s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgsConfig-version.cmake
+[7.798s] -- Symlinking: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/package.xml
+[7.806s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_generator_c.so
+[7.806s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_generator_c.so" to ""
+[7.806s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_fastrtps_c.so
+[7.807s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.807s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_introspection_c.so
+[7.807s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.807s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_c.so
+[7.807s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_c.so" to ""
+[7.808s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.808s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.808s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_introspection_cpp.so
+[7.808s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.809s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_cpp.so
+[7.809s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_typesupport_cpp.so" to ""
+[7.851s] Listing '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs'...
+[7.851s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/__init__.py'...
+[7.851s] Listing '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/__init__.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_battery.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_command_state.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_connection_status.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_drive_status.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_magnetometer.py'...
+[7.852s] Compiling '/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/local/lib/python3.10/dist-packages/guardros_msgs/msg/_temperatures.py'...
+[7.856s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_generator_py.so
+[7.856s] -- Set runtime path of "/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/lib/libguardros_msgs__rosidl_generator_py.so" to ""
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_generator_cExport.cmake
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.857s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.858s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_cExport.cmake
+[7.858s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.858s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_generator_cppExport.cmake
+[7.858s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.858s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.859s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.859s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.859s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_cppExport.cmake
+[7.859s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/guardros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.860s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_generator_pyExport.cmake
+[7.860s] -- Installing: /home/denis/DENIS/RollerBot23/guardros_ws/install/guardros_msgs/share/guardros_msgs/cmake/export_guardros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.862s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_bringup:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_keyboard_teleop:/home/denis/DENIS/RollerBot23/guardros_ws/install/guardros:/opt/ros/humble /usr/bin/cmake --install /home/denis/DENIS/RollerBot23/guardros_ws/build/guardros_msgs

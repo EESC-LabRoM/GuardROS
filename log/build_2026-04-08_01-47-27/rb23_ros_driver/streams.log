@@ -1,0 +1,17 @@
+[1.289s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build --no-deps symlink_data
+[1.575s] running develop
+[1.758s] running egg_info
+[1.758s] writing rb23_ros_driver.egg-info/PKG-INFO
+[1.758s] writing dependency_links to rb23_ros_driver.egg-info/dependency_links.txt
+[1.758s] writing entry points to rb23_ros_driver.egg-info/entry_points.txt
+[1.758s] writing requirements to rb23_ros_driver.egg-info/requires.txt
+[1.758s] writing top-level names to rb23_ros_driver.egg-info/top_level.txt
+[1.760s] reading manifest file 'rb23_ros_driver.egg-info/SOURCES.txt'
+[1.761s] writing manifest file 'rb23_ros_driver.egg-info/SOURCES.txt'
+[1.762s] running build_ext
+[1.762s] Creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages/rb23-ros-driver.egg-link (link to .)
+[1.763s] Installing rb23_driver_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/rb23_ros_driver
+[1.763s] 
+[1.764s] Installed /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver
+[1.764s] running symlink_data
+[1.800s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_ros_driver/build --no-deps symlink_data

@@ -1,0 +1,213 @@
+GuardROS Log Analysis
+=====================
+
+Session directory:
+/home/denis/DENIS/RollerBot23/guardros_ws/experiments/logs/2026-05-12_23-39-53_manual_run
+
+Plot directory:
+/home/denis/DENIS/RollerBot23/guardros_ws/experiments/analysis/results/plots/2026-05-12_23-39-53_manual_run
+
+1. Stream timing summary
+------------------------
+
+[cmd_vel]
+  message_count            : 17991
+  duration_sec             : 899.444614648819
+  average_rate_hz          : 20.002343342757623
+  expected_rate_hz         : 20.0
+  mean_dt_sec              : 0.04999692132567082
+  median_dt_sec            : 0.0524485111236572
+  std_dt_sec               : 0.0045517598832789585
+  min_dt_sec               : 0.0004301071166992
+  max_dt_sec               : 0.0692110061645507
+  p95_dt_sec               : 0.05354382991790771
+  p99_dt_sec               : 0.05529469490051263
+  gaps_above_2x_expected   : 0
+  gaps_above_0_2_sec       : 0
+  stability_label          : excellent
+
+[telemetry_json]
+  message_count            : 8667
+  duration_sec             : 899.9578900337219
+  average_rate_hz          : 9.630450597722126
+  expected_rate_hz         : 10.0
+  mean_dt_sec              : 0.10384928341030714
+  median_dt_sec            : 0.1000113487243652
+  std_dt_sec               : 0.043641949975974995
+  min_dt_sec               : 0.0015628337860107
+  max_dt_sec               : 1.6081295013427734
+  p95_dt_sec               : 0.10240811109542843
+  p99_dt_sec               : 0.200050151348114
+  gaps_above_2x_expected   : 101
+  gaps_above_0_2_sec       : 101
+  stability_label          : good
+
+[video]
+  message_count            : 17750
+  duration_sec             : 899.9741966724396
+  average_rate_hz          : 19.722787681723286
+  expected_rate_hz         : 20.0
+  mean_dt_sec              : 0.0507056282986331
+  median_dt_sec            : 0.0494792461395263
+  std_dt_sec               : 0.03640061601872823
+  min_dt_sec               : 0.0003790855407714
+  max_dt_sec               : 1.6270854473114014
+  p95_dt_sec               : 0.06827511787414543
+  p99_dt_sec               : 0.11569983482360838
+  gaps_above_2x_expected   : 279
+  gaps_above_0_2_sec       : 65
+  stability_label          : good
+
+[audio_rx]
+  message_count            : 5219
+  duration_sec             : 899.8763077259064
+  average_rate_hz          : 5.79968597371902
+  expected_rate_hz         : 5.88235294117647
+  mean_dt_sec              : 0.17245617242734887
+  median_dt_sec            : 0.17072355747222895
+  std_dt_sec               : 0.0647917951712687
+  min_dt_sec               : 0.0004034042358398
+  max_dt_sec               : 1.8949878215789795
+  p95_dt_sec               : 0.19175095558166488
+  p99_dt_sec               : 0.3448668599128722
+  gaps_above_2x_expected   : 65
+  gaps_above_0_2_sec       : 178
+  stability_label          : good
+
+[audio_tx]
+  message_count            : 0
+  duration_sec             : None
+  average_rate_hz          : None
+  expected_rate_hz         : 46.948356807511736
+  mean_dt_sec              : None
+  median_dt_sec            : None
+  std_dt_sec               : None
+  min_dt_sec               : None
+  max_dt_sec               : None
+  p95_dt_sec               : None
+  p99_dt_sec               : None
+  gaps_above_2x_expected   : None
+  gaps_above_0_2_sec       : None
+  stability_label          : not_available
+
+
+2. Battery, temperature, and ping summary
+-----------------------------------------
+
+[voltage]
+  count  : 8667
+  mean   : 11.64491866107244
+  median : 11.649999618530272
+  std    : 0.09202217336107692
+  min    : 11.210000038146973
+  max    : 12.100000381469728
+  p95    : 11.789999961853027
+  p99    : 11.84000015258789
+
+[current]
+  count  : 8667
+  mean   : 0.6526110525589746
+  median : 0.6299999952316284
+  std    : 0.17957581790342292
+  min    : -0.5
+  max    : 1.9700000286102293
+  p95    : 0.9370000004768262
+  p99    : 1.2633999872207655
+
+[power]
+  count  : 8667
+  mean   : 7.593163723365251
+  median : 7.360000133514404
+  std    : 2.067638033178249
+  min    : -5.860000133514404
+  max    : 22.170000076293945
+  p95    : 10.81999969482422
+  p99    : 14.663399925231934
+
+[percentage]
+  count  : 8667
+  mean   : 73.43309077818226
+  median : 73.66999816894531
+  std    : 2.551635477091584
+  min    : 61.27000045776367
+  max    : 86.25
+  p95    : 77.37000274658203
+  p99    : 78.75
+
+[pcb_temp]
+  count  : 8667
+  mean   : 49.396978189695716
+  median : 49.380001068115234
+  std    : 0.2465323922667599
+  min    : 48.86000061035156
+  max    : 49.93999862670898
+  p95    : 49.79999923706055
+  p99    : 49.84999847412109
+
+[cpu_temp]
+  count  : 8667
+  mean   : 68.1915486275125
+  median : 68.30000305175781
+  std    : 0.8993248543642763
+  min    : 65.0
+  max    : 71.05000305175781
+  p95    : 69.4000015258789
+  p99    : 70.5
+
+[robot_server_ping]
+  count  : 8667
+  mean   : 147.25078692182586
+  median : 142.27000427246094
+  std    : 51.70187743976973
+  min    : 138.11000061035156
+  max    : 1812.989990234375
+  p95    : 153.19099731445309
+  p99    : 192.20220245361355
+
+[client_server_ping]
+  count  : 8667
+  mean   : 76.07380758267696
+  median : 67.1500015258789
+  std    : 34.03349523378432
+  min    : 52.18000030517578
+  max    : 941.7000122070312
+  p95    : 106.64700088500976
+  p99    : 210.43339599609376
+
+
+3. Final driver diagnostic counters
+-----------------------------------
+udp_command_packets_sent: 12523
+udp_command_send_errors: 0
+udp_audio_packets_sent: 0
+udp_audio_send_errors: 0
+udp_packets_rx_total: 40301
+udp_socket_timeouts: 130
+udp_recv_errors: 0
+udp_unknown_packets: 0
+telemetry_packets_rx: 17252
+telemetry_packets_published: 8697
+telemetry_packets_wrong_id: 2
+telemetry_decode_attempts_ok: 17254
+telemetry_decode_attempts_failed: 23047
+video_packets_ok: 17810
+video_packets_non_jpeg: 0
+audio_packets_ok: 5237
+audio_packets_non_audio: 0
+cmd_vel_messages_rx: 18058
+force_rpi_messages_rx: 0
+cam_stable_messages_rx: 2
+cam_angle_messages_rx: 2
+audio_tx_messages_rx: 0
+
+
+4. Driver-level derived rates
+-----------------------------
+udp_rx_rate_hz: 44.80653877252376
+telemetry_rx_rate_hz_driver: 19.180725215344033
+video_rx_rate_hz_driver: 19.801108050387043
+audio_rx_rate_hz_driver: 5.82248191240185
+udp_unknown_ratio: 0.0
+udp_timeout_rate_hz: 0.144533635404285
+udp_recv_error_rate_hz: 0.0
+udp_command_send_error_rate_hz: 0.0

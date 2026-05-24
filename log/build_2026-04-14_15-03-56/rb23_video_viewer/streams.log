@@ -1,0 +1,19 @@
+[1.300s] Invoking command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build --no-deps symlink_data --force
+[1.664s] running develop
+[1.940s] running egg_info
+[1.941s] writing rb23_video_viewer.egg-info/PKG-INFO
+[1.942s] writing dependency_links to rb23_video_viewer.egg-info/dependency_links.txt
+[1.942s] writing entry points to rb23_video_viewer.egg-info/entry_points.txt
+[1.942s] writing requirements to rb23_video_viewer.egg-info/requires.txt
+[1.943s] writing top-level names to rb23_video_viewer.egg-info/top_level.txt
+[1.946s] reading manifest file 'rb23_video_viewer.egg-info/SOURCES.txt'
+[1.947s] writing manifest file 'rb23_video_viewer.egg-info/SOURCES.txt'
+[1.950s] running build_ext
+[1.950s] Creating /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages/rb23-video-viewer.egg-link (link to .)
+[1.952s] Installing rb23_video_viewer_node script to /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/rb23_video_viewer
+[1.952s] 
+[1.953s] Installed /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer
+[1.953s] running symlink_data
+[1.953s] symbolically linking /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/resource/rb23_video_viewer -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/ament_index/resource_index/packages
+[1.954s] symbolically linking /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/package.xml -> /home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/share/rb23_video_viewer
+[2.322s] Invoked command in '/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer' returned '0': PYTHONPATH=/home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/denis/DENIS/RollerBot23/guardros_ws/install/rb23_video_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/denis/DENIS/RollerBot23/guardros_ws/build/rb23_video_viewer/build --no-deps symlink_data --force
