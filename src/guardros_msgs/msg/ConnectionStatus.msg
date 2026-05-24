@@ -1,0 +1,5 @@
+float32 robot_server_ping
+float32 client_server_ping
+bool local_controller
+bool follow_mode
+int32 button

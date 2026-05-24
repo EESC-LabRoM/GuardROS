@@ -1,0 +1,4 @@
+float32 pitch
+float32 rotation
+float32 motor_left
+float32 motor_right

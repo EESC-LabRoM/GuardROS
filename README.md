@@ -6,8 +6,8 @@
 
 <p align="center">
     <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Images/logo_dark.png" width="50%">
-  <source media="(prefers-color-scheme: light)" srcset="Images/logo_light.png" width="50%">
+  <source media="(prefers-color-scheme: dark)" srcset="Images/logo_dark.png" width="75%">
+  <source media="(prefers-color-scheme: light)" srcset="Images/logo_light.png" width="75%">
   <img alt="Project Logo" src="Images/logo_light.png" width="50%">
     </picture>
 </p>
@@ -42,8 +42,10 @@ The framework was experimentally validated under real-world operational conditio
 # System Architecture
 
 <p align="center">
+  <picture>
   <!-- ARCHITECTURE IMAGE PLACEHOLDER -->
-  <img src="docs/images/architecture.png" alt="GuardROS Architecture" width="900"/>
+  <img src="Images/architecture.jpg" alt="GuardROS Architecture" width="90%"/>
+  <picture>
 </p>
 
 GuardROS operates as a bidirectional interoperability layer between:

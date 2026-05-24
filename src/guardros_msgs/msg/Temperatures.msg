@@ -1,0 +1,2 @@
+float32 pcb_temp
+float32 cpu_temp
