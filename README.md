@@ -335,8 +335,7 @@ If you use GuardROS in academic work, please cite:
 # License
 
 ```text
-[Choose your license]
-MIT / Apache-2.0 / GPL-3.0
+Apache-2.0
 ```
 
 ---
